@@ -1,3 +1,6 @@
+# 1 agent - 2 men
+# 1 man - 20 min
+
 name = "Zebediah"
 agents = 3
 names = "Bob Jim Becky Pat Miles Piles kuba"
