@@ -1,9 +1,9 @@
 # 1 agent - 2 men
 # 1 man - 20 min
 
-name = "Zebediah"
-agents = 3
-names = "Bob Jim Becky Pat Miles Piles kuba"
+name = "zoia".lower()
+agents = 4
+names = "pat flik blik mat bob kuk puk luk muk klos klus hnus  flus šlus fflus werta erta rta berta merta omerta blos flos dlos hoja kloja sloja".lower()
 
 name = name.lower()
 names = names.lower()
@@ -15,9 +15,8 @@ que = dict()
 for i in range(1, agents + 1):
     que.setdefault(f"{i}", list())
 
-print(name_list)
-print(order)
 
+print(name_list)
 agent_nr = 1
 AGENT_WORK = 2
 next_agent = 1
